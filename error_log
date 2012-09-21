@@ -1,0 +1,30 @@
+[21-Sep-2012 17:32:47] PHP Warning:  require(APPPATH./google-api-php-client/src/apiClient.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/twdev1/public_html/devfest/index.php on line 8
+[21-Sep-2012 17:32:47] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'APPPATH./google-api-php-client/src/apiClient.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/twdev1/public_html/devfest/index.php on line 8
+[21-Sep-2012 17:32:58] PHP Fatal error:  Class 'apiOauth2Service' not found in /home/twdev1/public_html/devfest/index.php on line 22
+[21-Sep-2012 17:53:11] PHP Fatal error:  Call to undefined function current_url() in /home/twdev1/public_html/devfest/selection.php on line 17
+[21-Sep-2012 17:54:40] PHP Fatal error:  Call to undefined function getFirstProfileId() in /home/twdev1/public_html/devfest/selection.php on line 52
+[21-Sep-2012 17:55:05] PHP Fatal error:  Call to a member function getItems() on a non-object in /home/twdev1/public_html/devfest/selection.php on line 75
+[21-Sep-2012 17:57:51] PHP Fatal error:  Call to a member function getItems() on a non-object in /home/twdev1/public_html/devfest/selection.php on line 77
+[21-Sep-2012 17:58:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/twdev1/public_html/devfest/function.php:4) in /home/twdev1/public_html/devfest/index.php on line 32
+[21-Sep-2012 17:58:14] PHP Fatal error:  Uncaught exception 'apiAuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_grant'' in /home/twdev1/public_html/devfest/google-api-php-client/src/auth/apiOAuth2.php:105
+Stack trace:
+#0 /home/twdev1/public_html/devfest/google-api-php-client/src/apiClient.php(138): apiOAuth2->authenticate(Array)
+#1 /home/twdev1/public_html/devfest/index.php(9): apiClient->authenticate()
+#2 {main}
+  thrown in /home/twdev1/public_html/devfest/google-api-php-client/src/auth/apiOAuth2.php on line 105
+[21-Sep-2012 17:58:27] PHP Fatal error:  Call to a member function getItems() on a non-object in /home/twdev1/public_html/devfest/selection.php on line 77
+[21-Sep-2012 18:00:40] PHP Fatal error:  Call to undefined function current_url() in /home/twdev1/public_html/devfest/selection.php on line 19
+[21-Sep-2012 18:01:06] PHP Fatal error:  Call to undefined function current_url() in /home/twdev1/public_html/devfest/selection.php on line 19
+[21-Sep-2012 18:01:19] PHP Fatal error:  Call to undefined function current_url() in /home/twdev1/public_html/devfest/selection.php on line 19
+[21-Sep-2012 18:02:01] PHP Fatal error:  Call to undefined function current_url() in /home/twdev1/public_html/devfest/selection.php on line 18
+[21-Sep-2012 18:02:41] PHP Fatal error:  Call to undefined function current_url() in /home/twdev1/public_html/devfest/selection.php on line 23
+[21-Sep-2012 18:03:21] PHP Fatal error:  Call to undefined function current_url() in /home/twdev1/public_html/devfest/selection.php on line 19
+[21-Sep-2012 18:10:50] PHP Fatal error:  Uncaught exception 'apiException' with message '(get) missing required param: 'start-date'' in /home/twdev1/public_html/devfest/google-api-php-client/src/service/apiServiceResource.php:126
+Stack trace:
+#0 /home/twdev1/public_html/devfest/google-api-php-client/src/contrib/apiAnalyticsService.php(244): apiServiceResource->__call('get', Array)
+#1 /home/twdev1/public_html/devfest/selection.php(63): DataGaServiceResource->get('ga:20151858', NULL, NULL, 'ga:visitors,ga:...', Array)
+#2 {main}
+  thrown in /home/twdev1/public_html/devfest/google-api-php-client/src/service/apiServiceResource.php on line 126
+[21-Sep-2012 18:22:24] PHP Parse error:  syntax error, unexpected ':' in /home/twdev1/public_html/devfest/selection.php on line 79
+[21-Sep-2012 18:34:47] PHP Warning:  Invalid argument supplied for foreach() in /home/twdev1/public_html/devfest/selection.php on line 125
+[21-Sep-2012 18:34:55] PHP Warning:  Invalid argument supplied for foreach() in /home/twdev1/public_html/devfest/selection.php on line 125
